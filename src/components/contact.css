@@ -1,0 +1,79 @@
+#contact {
+    background-image: url("../assets/contact2.jpg");
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 80px;
+    padding: 8px;
+    font-size: 50px;
+    border-radius: 0 !important;
+    color: black;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+label {
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 2px solid #54B689;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #077BFF;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background: rgb(3, 83, 175);
+}
+
+
+.myInfo {
+    float: right;
+}
+
+.first {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.second {
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.smaller {
+    font-size: 12px;
+}

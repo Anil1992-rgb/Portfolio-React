@@ -1,0 +1,61 @@
+.main-wrapper {
+    margin-top: 0;
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    /* height: 100vh; */
+    float: right;
+}
+
+.tag-line {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#me {
+    height: 420px;
+    float: right !important;
+    border: 2px solid white;
+}
+
+.row {
+    justify-content: right !important;
+    
+}
+
+
+.bio2 {
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.textLinks {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.textLinks a:hover {
+    text-decoration: none;
+}
+
+.container {
+    height: 100%;
+}
+
+#skillsLogo {
+    height: 380px;
+    /* width: 400px;
+    border-radius: 100%;
+    border: 2px solid black */
+}
+
+#parallax {
+    height: 100px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
