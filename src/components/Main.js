@@ -1,11 +1,10 @@
 import React from 'react';
 import Projects from "./Projects";
 import Contact from "./Contact";
-
 import "./main.css";
 import me from "../assets/me.png"
-import skills from "../assets/output-onlinepngtools (1).png"
-import hobbies from "../assets/hobbies.png";
+import skills from "../assets/skills.png"
+import hobbies from "../assets/hobbies2.png";
 
 
 function Main() {
@@ -18,14 +17,14 @@ function Main() {
                     <hr />
                     <br />
                     <div className="row">
-                        <div className="col-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui 
+                        <div className="col-sm about">
+                        Full-Stack Web Developer with a recently acquired degree from the University of Oregon’s Coding Bootcamp and developing skills in HTML, CSS, Javascript, and more, all with responsive mobile-first design. The goal is to engage for an impressive and impactful experience. Multiple recently applied projects with unique design and operation, to define and endorse skill sets. Excited for the future of web development and eager to join a quality-driven team to launch new innovative experiences worldwide.
                         </div>
                         <div className="col-sm">
                             <img id="me" src={me} />
                         </div>
-                        <div className="col-sm">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea 
+                        <div className="col-sm about">
+                        Background in Business Management and Customer-Service, alongside an expanding experience and knowledge of computers, with a passion to always learn more and keep up to date with current tech. Achievements in past positions and awards for projects as well as perfect attendance, and has gained the skills necessary to become a thriving web developer.
                         </div>
                     </div>
                     <br />

@@ -9,6 +9,11 @@
     float: right;
 }
 
+h1 {
+    font-family: fantasy;
+    color: white;
+}
+
 .tag-line {
     font-weight: bolder;
     font-style: italic;
@@ -23,6 +28,10 @@
 .row {
     justify-content: right !important;
     
+}
+
+.about {
+    font-size: 20px;
 }
 
 
