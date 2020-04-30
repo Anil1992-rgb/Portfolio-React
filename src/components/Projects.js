@@ -3,61 +3,56 @@ import "./projects.css";
 import movie from "../assets/movieExplorer.png"
 import nba from "../assets/NBA.png"
 import note from "../assets/note.png";
-import burger from "../assets/burger.png";   
-import weather from "../assets/weatherDashboard.png";   
-import dayPlanner from "../assets/schedule.png";   
+import burger from "../assets/burger.png";
+import weather from "../assets/weatherDashboard.png";
+import dayPlanner from "../assets/schedule.png";
+import Carousel from 'react-bootstrap/Carousel'
 
 
 function Projects() {
     return (
         <div className="container">
             <h2 id="projectsHeader">Projects</h2>
-            <div className="bd-example">
-                <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel" data-interval="false">
-                    <ol className="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        {/* <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> */}
-                    </ol>
-                    <div className="carousel-inner" style={{ backgroundColor: "black" }}>
-                        <div className="carousel-item active">
-                            <img src={movie} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Movie Explorer</h5>
-                                <p>Movie database web app that lets you enter a Movie title and will
-                                display data on the screen such as poster image, rating, overview, trailer, and
-                                    more.</p>
-                                <a className="btn btn-success fas fa-play"
-                                    href="https://anil1992-rgb.github.io/Movie-Explorer/" target="_blank"> Try Me!</a>
-                                <a className="btn btn-success fab fa-github"
-                                    href="https://github.com/Anil1992-rgb/Movie-Explorer" target="_blank"> Repo</a>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={nba} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>NBA FanBoi</h5>
-                                <p>A complete NBA fan application that gives users real-time scores of games-in-
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={nba}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>NBA FanBoi</h3>
+                        <p>A NBA fan application that gives users real-time scores of games-in-
                                     progress, as well as team and player stats plus more to keep up-to-date on all things NBA.</p>
-                                <a className="btn btn-success fas fa-play" href="https://nbafanboi.herokuapp.com/"
-                                    target="_blank"> Try Me!</a>
-                                <a className="btn btn-success fab fa-github"
-                                    href="https://github.com/hkennedyvi/project2.github.io" target="_blank"> Repo</a>
-                            </div>
-                        </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={movie}
+                        alt="Second slide"
+                    />
 
-                    </div>
-                    <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
+                    <Carousel.Caption>
+                        <h3>Movie Explorer</h3>
+                        <p>Movie database web app that lets you enter a Movie title and will display data on the screen such as poster image, rating, overview, trailer, and more.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
             <section class="projects">
+                
                 <div class="container">
                     <h2>Apps</h2>
                     <br />
