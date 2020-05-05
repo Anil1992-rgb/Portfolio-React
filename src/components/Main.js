@@ -1,6 +1,6 @@
 import React from 'react';
-import Projects from "./Projects";
-import Contact from "./Contact";
+// import Projects from "./Projects";
+// import Contact from "./Contact";
 import "./main.css";
 import me from "../assets/me.png"
 import skills from "../assets/skills.png"
@@ -45,9 +45,9 @@ function Main() {
                         </div>
                     </div>
             </div>
-            <Projects />
+            {/* <Projects /> */}
             <br/>
-            <Contact/>
+            {/* <Contact/> */}
 
         </div>
     )

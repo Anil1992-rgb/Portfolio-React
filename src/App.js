@@ -1,16 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Projects from "./components/Projects";
 
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Main/>
-    </div>
-  );
+// import Home from './components/Home';
+// import About from './components/About';
+import Contact from './components/Contact';
+// import Error from './components/Error';
+// import Navigation from './components/Navigation';
+
+
+class App extends Component {
+  render() {
+    return (      
+       <BrowserRouter>
+        <div>
+          <Header />
+            <Switch>
+             <Route path="/" component={Main} exact/>
+             <Route path="/projects" component={Projects}/>
+             <Route path="/contact" component={Contact}/>
+            <Route component={Error}/>
+           </Switch>
+        </div> 
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

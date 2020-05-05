@@ -7,13 +7,20 @@ import burger from "../assets/burger.png";
 import weather from "../assets/weatherDashboard.png";
 import dayPlanner from "../assets/schedule.png";
 import Carousel from 'react-bootstrap/Carousel'
+import CardDeck from 'react-bootstrap/CardDeck'
+import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+// import Header from "./Header";
+
 
 
 function Projects() {
     return (
-        <div className="container">
+        <div className="main-wrapper col-lg-10 offset-lg-2">
             <h2 id="projectsHeader">Projects</h2>
-            <Carousel>
+            <Carousel align="center" style={{ width: "90%", margin: "auto" }}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -38,10 +45,10 @@ function Projects() {
                         <p>Movie database web app that lets you enter a Movie title and will display data on the screen such as poster image, rating, overview, trailer, and more.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                {/* <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        src=
                         alt="Third slide"
                     />
 
@@ -49,31 +56,36 @@ function Projects() {
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
-                </Carousel.Item>
+                </Carousel.Item> */}
             </Carousel>
             <section class="projects">
-                
-                <div class="container">
-                    <h2>Apps</h2>
-                    <br />
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src={note} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Note Taker</h5>
-                                <p class="card-text">Note taker Node command line app that lets you add/view/delete notes
-                                and saves the data so you can use and see the notes on different devices or platforms.
-                            </p>
-                            </div>
-                            <div class="card-footer">
-                                <a class="btn btn-success fas fa-play" href="https://anilnotetaker.herokuapp.com/notes"
-                                    target="_blank"> Try Me!</a>
-                                <a class="btn btn-success fab fa-github"
-                                    href="https://github.com/Anil1992-rgb/Note-Taker-WebApp" target="_blank"> Repo</a>
 
-                            </div>
-                        </div>
-                        <div class="card">
+                <div class="container">
+                    <br />
+                    <CardDeck>
+                        <Card>
+                            <Card.Img src={note} alt="..." />
+                            <Card.Body>
+                                <Card.Title>Note Taker</Card.Title>
+                                <Card.Text>Note taker Node command line app that lets you add/view/delete notes
+                                and saves the data so you can use and see the notes on different devices or platforms.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer >
+                                <Row>
+                                    <Col style={{margin: "auto", textAlign: "center"}}>
+                                        <a class="btn btn-success fas fa-play" href="https://anilnotetaker.herokuapp.com/notes"
+                                            target="_blank"> Try Me!</a>
+                                        <a class="btn btn-success fab fa-github"
+                                            href="https://github.com/Anil1992-rgb/Note-Taker-WebApp" target="_blank"> Repo</a>
+                                    </Col>
+
+                                </Row>
+
+
+                            </Card.Footer>
+                        </Card>
+                        <Card>
                             <img src={dayPlanner} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Day Planner</h5>
@@ -88,8 +100,8 @@ function Projects() {
                                     href="https://github.com/Anil1992-rgb/Day-Planner" target="_blank"> Repo</a>
                             </div>
 
-                        </div>
-                    </div>
+                        </Card>
+                    </CardDeck>
 
                     <br />
                     <br />

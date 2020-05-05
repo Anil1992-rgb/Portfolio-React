@@ -41,7 +41,7 @@ function Header() {
                         <a className="nav-link fas fa-user" href="index.html"> About Me</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link fas fa-project-diagram" href="#projectsHeader"> Projects</a>
+                        <a className="nav-link fas fa-project-diagram" href="./projects"> Projects</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link fas fa-file" href="../assets/ResumePDF.pdf" target="_blank"> Resume</a>
