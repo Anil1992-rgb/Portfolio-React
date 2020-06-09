@@ -1,4 +1,4 @@
-#contact {
+/* #contact {
     background-image: url("../assets/contact2.jpg");
     background-attachment: fixed !important;
     background-position: center !important;
@@ -9,7 +9,17 @@
     font-size: 50px;
     border-radius: 0 !important;
     color: black;
+} */
+
+html {
+    height: 100% !important;
 }
+
+
+.contactWrapper {
+    height: 100vh;
+}
+
 
 .contact {
     margin-bottom: 50px;
@@ -18,7 +28,7 @@
 label {
     float: left;
     font-weight: bold;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 label,

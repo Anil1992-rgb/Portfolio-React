@@ -5,6 +5,7 @@ import "./main.css";
 import me from "../assets/me.png"
 import skills from "../assets/skills.png"
 import hobbies from "../assets/hobbies2.png";
+// import App from "../App.js"
 
 
 function Main() {

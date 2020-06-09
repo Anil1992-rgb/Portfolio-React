@@ -3,6 +3,7 @@ import "./header.css";
 // import me from "../assets/me.JPG";
 import logo3 from "../assets/logo.jpg";
 // import coder from "../assets/pov.jpg";
+import Main from "./Main.js"
 
 
 function Header() {
@@ -38,7 +39,7 @@ function Header() {
                 <br/>
                 <ul className="navbar-nav flex-column text-left">
                     <li className="nav-item">
-                        <a className="nav-link fas fa-user" href="index.html"> About Me</a>
+                        <a className="nav-link fas fa-user" href="/"> About Me</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link fas fa-project-diagram" href="./projects"> Projects</a>
@@ -47,7 +48,7 @@ function Header() {
                         <a className="nav-link fas fa-file" href="../assets/ResumePDF.pdf" target="_blank"> Resume</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link fas fa-envelope" href="#contact"> Contact</a>
+                        <a className="nav-link fas fa-envelope" href="./contact"> Contact</a>
                     </li>
                 </ul>
             </div>

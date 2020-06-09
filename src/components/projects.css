@@ -8,9 +8,13 @@
     background-position: center !important;
     height: auto;
     font-size: 50px;
-    /* margin-left: -80px !important;
-    margin-right: -78px !important; */
 }
+
+/* .main-wrapper {
+    height: 100vh;
+} */
+
+
 
 
 .fa-play {
@@ -25,10 +29,8 @@ a {
     color: white;
     font-size: 30px;
     text-decoration: none;
-    /* background-color: transparent; */
     box-sizing: border-box;
     cursor: pointer;
-    margin-bottom: 10px;
 }
 
 hr {
