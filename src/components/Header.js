@@ -1,6 +1,7 @@
 import React from 'react';
 import "./header.css";
 import { NavLink } from 'react-router-dom';
+import ResumePDF from "./ResumePDF.pdf";
 
 // import me from "../assets/me.JPG";
 import logo3 from "../assets/logo.jpg";
@@ -51,7 +52,9 @@ function Header() {
 
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link fas fa-file" href="../assets/ResumePDF.pdf" target="_blank"> Resume</a>
+                        <a className="nav-link fas fa-file" href= {ResumePDF} target="_blank">Resume</a>
+                        {/* <NavLink href = {ResumePDF}>Resume</NavLink> */}
+
                     </li>
                     <li className="nav-item">
                         {/* <a className="nav-link fas fa-envelope" href="./contact"> Contact</a> */}
