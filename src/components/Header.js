@@ -1,9 +1,11 @@
 import React from 'react';
 import "./header.css";
+import { NavLink } from 'react-router-dom';
+
 // import me from "../assets/me.JPG";
 import logo3 from "../assets/logo.jpg";
 // import coder from "../assets/pov.jpg";
-import Main from "./Main.js"
+// import Main from "./Main.js"
 
 
 function Header() {
@@ -39,16 +41,22 @@ function Header() {
                 <br/>
                 <ul className="navbar-nav flex-column text-left">
                     <li className="nav-item">
-                        <a className="nav-link fas fa-user" href="/"> About Me</a>
+                        {/* <a className="nav-link fas fa-user" href="/"> About Me</a> */}
+                        <NavLink to="/">Main</NavLink>
+
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link fas fa-project-diagram" href="./projects"> Projects</a>
+                        {/* <a className="nav-link fas fa-project-diagram" href="./projects"> Projects</a> */}
+                        <NavLink to="/projects">Projects</NavLink>
+
                     </li>
                     <li className="nav-item">
                         <a className="nav-link fas fa-file" href="../assets/ResumePDF.pdf" target="_blank"> Resume</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link fas fa-envelope" href="./contact"> Contact</a>
+                        {/* <a className="nav-link fas fa-envelope" href="./contact"> Contact</a> */}
+                        <NavLink to="/contact">Contact</NavLink>
+
                     </li>
                 </ul>
             </div>
