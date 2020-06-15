@@ -43,22 +43,22 @@ function Header() {
                 <ul className="navbar-nav flex-column text-left">
                     <li className="nav-item">
                         {/* <a className="nav-link fas fa-user" href="/"> About Me</a> */}
-                        <NavLink to="/">Main</NavLink>
+                        <NavLink className="nav-link fas fa-user" to="/"> About Me</NavLink>
 
                     </li>
                     <li className="nav-item">
                         {/* <a className="nav-link fas fa-project-diagram" href="./projects"> Projects</a> */}
-                        <NavLink to="/projects">Projects</NavLink>
+                        <NavLink className="nav-link fas fa-project-diagram" to="/projects"> Projects</NavLink>
 
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link fas fa-file" href= {ResumePDF} target="_blank">Resume</a>
+                        <a className="nav-link fas fa-file" href= {ResumePDF} target="_blank"> Resume</a>
                         {/* <NavLink href = {ResumePDF}>Resume</NavLink> */}
 
                     </li>
                     <li className="nav-item">
                         {/* <a className="nav-link fas fa-envelope" href="./contact"> Contact</a> */}
-                        <NavLink to="/contact">Contact</NavLink>
+                        <NavLink className="nav-link fas fa-envelope" to="/contact"> Contact</NavLink>
 
                     </li>
                 </ul>
