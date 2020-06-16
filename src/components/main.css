@@ -9,10 +9,13 @@
     float: right;
 }
 
-h1 {
-    font-family: fantasy;
-    color: white;
+#aboutMeImg {
+    height: 125px;
 }
+
+/* p {
+    text-align: center;
+} */
 
 .tag-line {
     font-weight: bolder;

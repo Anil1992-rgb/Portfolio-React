@@ -1,39 +1,48 @@
 import React from 'react';
 import "./contact.css";
+import contactImg from "../assets/contact.png";
+import contactMe from "../assets/contactMe.png";
+
+
 
 function Contact() {
     return (
         <div className="main-wrapper contactWrapper col-lg-10 offset-lg-2">
-                <div class="container">
-                    <h2 id="contact">Contact</h2>
-                    <br />
-                    <div class="myInfo">
-                        <p class="badge badge-primary first">Email:</p>
-                        <p class="badge badge-warning second">alancturk1992@gmail.com</p>
-                        <br />
-                        <p class="badge badge-primary first smaller">Phone:</p>
-                        <p class="badge badge-warning second smaller">(503)-863-4661</p>
+            <div className="container">
+                <div class="card-columns">
+
+                    <div class="card contactCards">
+                        <img src="https://img.icons8.com/bubbles/100/000000/email.png" />
+                        <div class="card-body">
+                            <p class="card-text"><a href="mailto: burakacanbolat@gmail.com" id="emailText">burakacanbolat@gmail.com</a></p>
+                        </div>
                     </div>
 
-                    <form id="contact-form">
-                        <ul>
-                            <li>
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Smith" />
-                            </li>
-                            <li>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="example@gmail.com"
-                                    required="required" />
-                            </li>
-                            <li>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" required="required"></textarea>
-                            </li>
-                        </ul>
-                        <input type="submit" />
-                    </form>
+                    <div class="card contactCards p-3 linkedin">
+                        <a href="https://www.linkedin.com/in/anil-burak-canbolat-934244193" target="_blank"><img src="https://img.icons8.com/cute-clipart/128/000000/linkedin.png" /></a> 
+                        <a href="https://www.linkedin.com/in/anil-burak-canbolat-934244193" target="_blank"><p className="socialLinks">linkedin.com/in/anilburakcanbolat</p>      </a>          
+                    </div>
+
+                    <div class="card yolo text-white text-center p-3">
+                        <img id="contactMe" src={contactMe} />
+                    </div>
+
+                    <div class="card yolo text-center">
+                        <img id="contactImg" src={contactImg} />
+                    </div>
+
+                    <div class="card contactCards github p-3">
+                        <a href="https://github.com/Anil1992-rgb" target="_blank"><img id="github" src="https://img.icons8.com/cute-clipart/128/000000/github.png" /></a>
+                        <a href="https://github.com/Anil1992-rgb" target="_blank"><p className="socialLinks">github.com/Anil1992-rgb</p></a>
+                    </div>
+                    <div class="card contactCards">
+                        <div class="card-body">
+                            <img src="https://img.icons8.com/bubbles/100/000000/phone-not-being-used.png" />
+                            <p class="card-text phone">+1(503)-863-4661</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
         </div>
     )
 }

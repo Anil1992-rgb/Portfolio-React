@@ -5,6 +5,7 @@ import "./main.css";
 import me from "../assets/me.png"
 import skills from "../assets/skills.png"
 import hobbies from "../assets/hobbies2.png";
+import AboutMeImg from "../assets/aboutMe.png";
 // import App from "../App.js"
 
 
@@ -14,7 +15,7 @@ function Main() {
             <div className="container-fluid">
                 <div className="media-body">
                     <br />
-                    <h1>About Me</h1>
+                    <p><img id="aboutMeImg" src={AboutMeImg}/></p>
                     <hr />
                     <br />
                     <div className="row">

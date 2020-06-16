@@ -12,10 +12,6 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-// import Header from "./Header";
-
-
-
 function Projects() {
     return (
         <div className="main-wrapper col-lg-10 offset-lg-2">
