@@ -1,13 +1,11 @@
 import React from 'react';
-// import Projects from "./Projects";
-// import Contact from "./Contact";
 import "./main.css";
 import me from "../assets/me.png"
 import skills from "../assets/skills.png"
 import hobbies from "../assets/hobbies2.png";
 import AboutMeImg from "../assets/aboutMe.png";
-// import App from "../App.js"
-
+import hobbiesGif from "../assets/hobbiesGif.gif";
+import skillsHeader from "../assets/skillsLogo.png";
 
 function Main() {
     return (
@@ -30,27 +28,27 @@ function Main() {
                         </div>
                     </div>
                     <br />
-                    
                 </div>
+                <br/>
+                <br/>
                 <div id="skillsRow" className="row">
                         <div className="col-sm">
-                            <h2>Hobbies</h2>
+                            {/* <h2>Hobbies</h2> */}
+                            <p id="gifP"><img id="hobbiesGif" src={hobbiesGif}/></p>
                             <br/>
                             <img id="skillsLogo" src={hobbies} />
 
                         </div>
                         <div className="col-sm">
-                            <h2>Skills</h2>
+                            {/* <h2>Skills</h2> */}
+                            <p><img id="skillsHeader" src={skillsHeader}/></p>
                             <br/>
                             <img id="skillsLogo" src={skills} />
 
                         </div>
                     </div>
             </div>
-            {/* <Projects /> */}
             <br/>
-            {/* <Contact/> */}
-
         </div>
     )
 }

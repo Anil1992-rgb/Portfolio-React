@@ -13,6 +13,18 @@
     height: 125px;
 }
 
+#hobbiesGif {
+    height: 100px;
+    padding-left: 50px;
+    
+}
+
+#skillsHeader {
+    height: 100px;
+    padding-left: 170px;
+}
+
+
 /* p {
     text-align: center;
 } */

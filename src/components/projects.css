@@ -6,16 +6,13 @@
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
     background-position: center !important;
-    height: auto;
-    font-size: 50px;
+    height: 80px;
+    font-size: 65px;
 }
 
 /* .main-wrapper {
     height: 100vh;
 } */
-
-
-
 
 .fa-play {
     margin-right: 50px;

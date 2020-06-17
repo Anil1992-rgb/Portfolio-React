@@ -3,8 +3,6 @@ import "./contact.css";
 import contactImg from "../assets/contact.png";
 import contactMe from "../assets/contactMe.png";
 
-
-
 function Contact() {
     return (
         <div className="main-wrapper contactWrapper col-lg-10 offset-lg-2">

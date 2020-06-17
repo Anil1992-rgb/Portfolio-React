@@ -23,13 +23,12 @@ html {
     height: 250px;
 }
 
-
-
 .contactCards{
     text-align: center;
-    background-color: white;
+    background-image: url(../assets/subtle.jpg);
+    background-size: cover;
     border: none;
-    border-radius: 6%;
+    border-radius: 25px;
     
 }
 

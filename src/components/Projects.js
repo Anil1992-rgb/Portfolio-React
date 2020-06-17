@@ -150,8 +150,6 @@ function Projects() {
                 </div>
             </section>
         </div>
-
-
     )
 }
 
