@@ -7,13 +7,6 @@ import Projects from "./components/Projects";
 import Contact from './components/Contact';
 import Resume from "./components/ResumePDF.pdf";
 
-
-// import Home from './components/Home';
-// import About from './components/About';
-// import Error from './components/Error';
-// import Navigation from './components/Navigation';
-
-
 class App extends Component {
   render() {
     return (      

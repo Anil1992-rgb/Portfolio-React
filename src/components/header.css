@@ -98,3 +98,15 @@ a:hover {
     margin: 10px 50px 10px 50px;
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 992px) {
+    .header {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav-link {
+        background-color: transparent;
+    }
+}
